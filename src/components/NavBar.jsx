@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaHamburger, FaHeadset, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaHeadset, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { MdMenuOpen } from "react-icons/md";
 import { MdMenu } from "react-icons/md";
 import { FaPhoneAlt } from 'react-icons/fa';
@@ -50,7 +50,7 @@ const NavBar = () => {
               <li key={item.path} className=''>
                 <Link
                   to={item.path}
-                  className='text-lg hover:font-medium transition-all duration-100 text-black hover:text-gray-700'
+                  className='text-lg hover:text-blue-900 transition-all duration-100 text-black'
                 >
                   {item.name}
                 </Link>

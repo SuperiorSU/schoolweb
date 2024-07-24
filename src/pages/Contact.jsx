@@ -1,14 +1,25 @@
-import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
-import { RiFacebookFill, RiInstagramFill, RiLinkedinFill, RiTwitterFill } from 'react-icons/ri';
-import HeadHero from '../components/HeadHero';
-import img from '../assets/contact-head.jpg';
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  RiFacebookFill,
+  RiInstagramFill,
+  RiLinkedinFill,
+  RiTwitterFill,
+} from "react-icons/ri";
+import HeadHero from "../components/HeadHero";
+import img from "../assets/contact-head.jpg";
+import ToTop from "../components/ToTop";
 const Contact = () => {
   return (
     <section className="bg-white">
-       <div className="container px-6 py-12 mx-auto">
-        <HeadHero img={img} title='Contact us' desc='We’d love to hear from you' subDesc='' />
+      <div className="container px-6 py-12 mx-auto">
+        <HeadHero
+          img={img}
+          title="Contact us"
+          desc="We’d love to hear from you"
+          subDesc=""
+        />
         <div className="container px-6 py-12 mx-auto">
           <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
@@ -39,29 +50,38 @@ const Contact = () => {
                     info@springdale.edu
                   </span>
                 </div>
-              </div>
-
-              <div className="mt-6 w-80 md:mt-8">
-                <h3 className="text-gray-600 dark:text-gray-300">Follow us</h3>
-                <div className="flex mt-4 -mx-1.5">
-                  <a
-                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
-                  >
-                    <RiFacebookFill className="w-8 h-8 fill-current" />
-                  </a>
-                  <a
-                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
-                  >
-                    <RiInstagramFill className="w-8 h-8" />
-                  </a>
-                  <a
-                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
-                  >
-                    <RiLinkedinFill className="w-8 h-8" />
-                  </a>
+                <div className="mt-6 w-80 md:mt-8">
+                  <h3 className="text-gray-600 dark:text-gray-300">
+                    Follow us
+                  </h3>
+                  <div className="flex mt-4 -mx-1.5">
+                    <a
+                      className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                      href="#"
+                    >
+                      <RiFacebookFill className="w-8 h-8 fill-current" />
+                    </a>
+                    <a
+                      className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                      href="#"
+                    >
+                      <RiInstagramFill className="w-8 h-8" />
+                    </a>
+                    <a
+                      className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                      href="#"
+                    >
+                      <RiLinkedinFill className="w-8 h-8" />
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109744.2270933551!2d76.68831213423412!3d30.732254422057448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1721793506313!5m2!1sen!2sin"
+                    height={270}
+                    width={300}
+                    loading="lazy"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -74,7 +94,9 @@ const Contact = () => {
 
                 <form className="mt-6">
                   <div className="flex-1">
-                    <label className="block mb-2 text-sm text-gray-600">Full Name</label>
+                    <label className="block mb-2 text-sm text-gray-600">
+                      Full Name
+                    </label>
                     <input
                       type="text"
                       placeholder="Name Here"
@@ -83,7 +105,9 @@ const Contact = () => {
                   </div>
 
                   <div className="flex-1 mt-6">
-                    <label className="block mb-2 text-sm text-gray-600">Email address</label>
+                    <label className="block mb-2 text-sm text-gray-600">
+                      Email address
+                    </label>
                     <input
                       type="email"
                       placeholder="username@example.com"
@@ -92,7 +116,9 @@ const Contact = () => {
                   </div>
 
                   <div className="w-full mt-6">
-                    <label className="block mb-2 text-sm text-gray-600">Message</label>
+                    <label className="block mb-2 text-sm text-gray-600">
+                      Message
+                    </label>
                     <textarea
                       className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                       placeholder="Message"
@@ -111,8 +137,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToTop/>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

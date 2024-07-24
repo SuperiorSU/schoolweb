@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import logo from '../assets/school-logo.png'
 // Define the route object
 const routes = [
@@ -16,12 +16,12 @@ const routes = [
 
 const Footer = () => {
   return (
-    <footer className="py-6 px-3">
+    <footer className="p-3">
       <div className="w-full p-4 py-8 rounded-lg bg-[#161827]">
         <div className="md:flex md:justify-around">
           <div className="mb-6 md:mb-0 px-5">
             <img src={logo} alt="logo" className="w-24" />
-            <p className="lg:w-96 md:w-60 w-full mt-3 text-gray-500 md:relative md:top-10 text-sm font-light">
+            <p className="lg:w-96 md:w-60 w-full mt-3 text-gray-300 md:relative md:top-10 font-light">
               Springdale Public School is dedicated to providing a comprehensive education in a supportive and nurturing environment, preparing students for success in their future endeavors.
             </p>
           </div>

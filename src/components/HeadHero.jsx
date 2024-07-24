@@ -18,7 +18,7 @@ const HeadHero = (props) => {
         </div>
 
         <img
-          className="object-cover w-full h-96 mt-10 rounded-lg lg:h-96"
+          className="object-cover w-full lg:h-full md:h-full sm:h-full h-full mt-12 rounded-lg"
           src={img}
           alt="Contact"
         />
