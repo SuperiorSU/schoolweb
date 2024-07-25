@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import EventCard from '../components/EventCard';
 import HeadHero from '../components/HeadHero';
 import galleryImg from '../assets/GalleyHero.png'
+import ToTop from '../components/ToTop';
 
 const events = [
   {
@@ -73,6 +74,7 @@ const Gallery = () => {
             <EventCard key={index} event={event} showText={true} />
           ))}
       </div>
+      <ToTop/>
     </div>
   );
 };

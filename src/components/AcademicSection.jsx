@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CourseCard from './CourseCard';
 
 const AcademicSection = () => {
-  const [selectedGrade, setSelectedGrade] = useState('All');
+  const [selectedGrade, setSelectedGrade] = useState('All Courses');
 
   const courses = [
     {

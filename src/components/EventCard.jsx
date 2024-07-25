@@ -8,7 +8,7 @@ const EventCard = ({ event, showText }) => {
       >
          <Link to="/gallery">
         <div
-          className={`absolute inset-0 w-full h-full rounded-3xl transition-all duration-300 ${showText ? 'bg-black bg-opacity-20 backdrop-blur' : 'bg-black bg-opacity-0'}`}
+          className={`absolute inset-0 w-full h-full rounded-3xl transition-all duration-300 ${showText ? 'bg-black bg-opacity-10   backdrop-blur' : 'bg-black bg-opacity-0'}`}
         ></div>
         <div className="absolute inset-x-5 text-white">
           <h2 className="text-3xl font-semibold mb-2">{event.title}</h2>
