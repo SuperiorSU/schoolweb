@@ -16,7 +16,7 @@ const Academics = () => {
         img={academics}
       />
       <div className="my-10">
-        <h2 className="text-4xl font-serif text-center py-6">
+        <h2 className="text-3xl font-semibold font-serif text-center py-6">
           Curriculum Overview
         </h2>
         <p className="w-3/4 mx-auto text-center">
@@ -36,10 +36,10 @@ const Academics = () => {
         <div className="lg:w-1/2">
           <div className="mx-auto grid max-w-2xl gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-1">
             <div className="col-span-2">
-              <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-900">
+              <h2 className="text-lg font-serif font-semibold leading-8 tracking-tight text-blue-900">
                 Our Innovative Approach
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-serif font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Key Features
               </p>
               <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">

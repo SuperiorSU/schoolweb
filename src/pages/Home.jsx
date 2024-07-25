@@ -4,6 +4,7 @@ import ToTop from '../components/ToTop'
 import ImageContainer from '../components/ImageContainer'
 import FeaturedContainer from '../components/FeauturedContainer'
 import featured1 from '../assets/featured1.jpg'
+import VisionMission from '../components/VissionMission'
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,9 @@ const Home = () => {
         <div>
           <FeaturedContainer title="Springdale Public School" description="Welcome to Springdale Public School, where we nurture young minds for a brighter future. Our dedicated faculty and comprehensive curriculum ensure that every student receives the support and education needed to excel. At Springdale, we believe in fostering a learning environment that promotes growth, creativity, and a love for learning. Together, we prepare students to become confident, responsible, and successful individuals."/>
         </div>
+      </div>
+      <div>
+        <VisionMission/>
       </div>
       <ToTop/>
     </div>

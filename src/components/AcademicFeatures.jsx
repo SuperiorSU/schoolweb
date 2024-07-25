@@ -7,8 +7,8 @@ const AcademicFeatures = () => {
       <div className='mx-auto max-w-7xl px-4 lg:px-8'>
         <div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3'>
           <div>
-            <h2 className='text-lg font-semibold leading-8 tracking-tight text-blue-900'>Springdale Public School</h2>
-            <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>Nurturing Future Leaders</p>
+            <h2 className='text-lg font-semibold leading-8 tracking-tight text-blue-900 font-serif'>Springdale Public School</h2>
+            <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-serif'>Nurturing Future Leaders</p>
             <p className='mt-6 text-base leading-7 text-justify text-gray-600'>
               At Springdale Public School, we use a blend of traditional and modern teaching techniques to cater to different learning styles. Our commitment is to provide a comprehensive educational experience that prepares students for success.
             </p>
