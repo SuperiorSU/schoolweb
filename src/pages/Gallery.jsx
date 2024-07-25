@@ -50,7 +50,7 @@ const Gallery = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <HeadHero title="Gallery" desc="Check out our latest events and activities" img={galleryImg} />
-      <div className="flex justify-center mb-8 mt-16">
+      <div className="flex justify-center flex-wrap items-center gap-y-4 mb-8 mt-16">
         <button
           className={`px-4 py-2 rounded-lg ${selectedEvent === 'All' ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-800'}`}
           onClick={() => setSelectedEvent('All')}
@@ -67,7 +67,7 @@ const Gallery = () => {
           </button>
         ))}
       </div>
-      <div className="grid grid-cols-3 place-items-center">
+      <div className="flex flex-wrap justify-around items-center gap-y-8">
         {events
           .filter(event => selectedEvent === 'All' || event.title === selectedEvent)
           .map((event, index) => (

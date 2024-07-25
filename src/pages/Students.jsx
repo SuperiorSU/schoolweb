@@ -8,6 +8,7 @@ import FeaturedContainer from '../components/FeauturedContainer'
 import extrac from '../assets/extrac.jpg'
 import clubs from '../assets/clubs.webp'
 import CouncilSection from '../components/CouncilSection'
+import EventSection from '../components/EventSection'
 const Students = () => {
   return (
     <div>
@@ -36,6 +37,9 @@ const Students = () => {
             description="Our clubs and societies provide students with the opportunity to explore their interests, develop their talents, and connect with like-minded peers. Whether you are passionate about science, art, literature, or community service, there is a club for you at Springdale. Joining a club is a great way to make new friends, learn new skills, and make a positive impact on your school and community."
           />
         </div>
+      </div>
+      <div>
+        <EventSection/>
       </div>
       <div className='py-12'>
           <img src={banner} alt="students" />
